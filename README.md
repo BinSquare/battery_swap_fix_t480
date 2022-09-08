@@ -1,4 +1,4 @@
-# Battery Swap Fix (Linux) for Lenovo T470s
+# Battery Swap Fix (Linux) for Lenovo T480
 
 Scripts to automatically set `charge_start_threshold` to reasonable values, so the batteries are charged and switched correctly.
 

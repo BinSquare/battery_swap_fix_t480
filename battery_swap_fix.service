@@ -1,6 +1,6 @@
 [Unit]
 Description=Battery Swap Fix service
-After=multi-user.target system76-power.service tlp.service
+After=multi-user.target power-profiles-daemon.service
 Before=shutdown.target
 
 [Service]
