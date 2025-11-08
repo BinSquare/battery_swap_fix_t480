@@ -1,6 +1,9 @@
 # Battery Swap Fix (Linux) for Lenovo T480
 
-Scripts to automatically set `charge_start_threshold` to reasonable values, so the batteries are charged and switched correctly.
+Scripts to automatically set `charge_start_threshold` to reasonable values, so the batteries are charged and switched correctly. Values are based on personal testing on my own device, use your own judgement and values if you need it. 
+
+This is forked from a T470 fix which has mentioned that this is supposedly fixed with newest firmware. I personally still use my own script and have not tested with the default firmware (no interest in doing so). You can follow along the discourse on this at https://gitlab.freedesktop.org/upower/upower/-/issues/62. 
+
 
 ## Background
 There is a bug either in the Linux kernel or the lenovo power management, that when not charging, only one battery is used and never the extra battery. 
@@ -19,5 +22,9 @@ To uninstall run `sudo ./uninstall.sh`.
 
 In both cases your system could need a restart, so `udev` can reload the event monitoring rules correctly.
 
-## Tested Devices:
-- Lenovo T470s
+## Tested Device:
+- Lenovo T480.
+
+# No promise of support
+
+Life has gotten busy, please note that I will not be able to answer questions on demand.
