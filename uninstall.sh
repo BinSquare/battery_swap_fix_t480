@@ -16,4 +16,4 @@ rm /etc/systemd/system/battery_swap_fix.service
 rm /etc/udev/rules.d/20-battery_swap_fix.rules
 
 echo "Restart required!"
-echo "\t`udev` reload required."
+echo "\t'udev' reload required."
