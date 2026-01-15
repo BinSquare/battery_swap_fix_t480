@@ -20,6 +20,6 @@ else
 fi
 
 # Apply threshold to all batteries
-for bat in $(ls -d /sys/class/power_supply/BAT*); do
+for bat in /sys/class/power_supply/BAT*; do
 	echo "$charge_start_threshold" > ${bat}/charge_start_threshold
 done
