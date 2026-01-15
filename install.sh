@@ -30,4 +30,4 @@ systemctl enable battery_swap_fix.service
 systemctl start battery_swap_fix.service
 
 echo "Restart required!"
-echo "\t'udev' reload required."
+echo -e "\t'udev' reload required."
